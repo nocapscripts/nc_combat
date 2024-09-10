@@ -40,7 +40,8 @@ end
 AddEventHandler("playerDropped", function(reason)
     local src = source
     writelog(src, reason)
-    exports.redux_logs:AddLog("LEAVE", self.hexid, "Player joined the server", nil)
+    
+  --  exports.redux_logs:AddLog("LEAVE", self.hexid, "Player joined the server", nil)
 end)
 
 
